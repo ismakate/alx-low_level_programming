@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- * Write a program that prints the alphabet
- * in lowercase, followed by a new line.
- * Print all the letters except q and e
-*/
-
-int main (void)
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
+ * Return: Aways 0 (Sucess)
+ */
+int main(void)
 {
 	char ch = 'a';
 
@@ -18,6 +17,6 @@ int main (void)
 		}
 		ch++;
 	}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
